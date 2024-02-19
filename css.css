@@ -1,0 +1,73 @@
+/* Reset or Normalize CSS */
+@import url('reset.css'); /* or @import url('normalize.css'); */
+
+/* Typography */
+body {
+    font-family: Verdana;
+    font-size: 16px;
+    color: rgb(89, 0, 109);
+    background-color:#001c39ab;
+}
+h1, h2, h3 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    color: #ff0000;
+}
+p {
+    line-height: 19.5;
+}
+
+/* Layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.header {
+    background-color: #00152c;
+    padding: 20px;
+}
+.footer {
+    background-color: #000000;
+    padding: 20px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Forms */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+}
